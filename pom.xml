@@ -200,11 +200,11 @@
     </repository>
   </repositories>
 
-	<distributionManagement>
-		<repository>
-			<id>civ-jenkins</id>
-			<url>file:///var/jenkins_home/repoStaging</url>
-		</repository>
-	</distributionManagement>
+  <distributionManagement>
+    <repository>
+      <id>civ-jenkins</id>
+      <url>file:///var/jenkins_home/repoStaging</url>
+    </repository>
+  </distributionManagement>
 
 </project>
