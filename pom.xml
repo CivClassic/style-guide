@@ -72,7 +72,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
-        <version>3.2.3</version>
+        <version>3.3.0-SNAPSHOT</version>
         <executions>
           <execution>
             <phase>package</phase>
@@ -125,6 +125,16 @@
       </plugin>
     </plugins>
   </reporting>
+
+  <!--
+  Plugin repository for maven-shade-plugin version 3.3.0-SNAPSHOT
+  as it's the only version that works with Java 16 -->
+  <pluginRepositories>
+    <pluginRepository>
+      <id>apache-snapshots</id>
+      <url>https://repository.apache.org/content/repositories/snapshots/</url>
+    </pluginRepository>
+  </pluginRepositories>
 
   <profiles>
     <profile>
