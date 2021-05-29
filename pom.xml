@@ -34,7 +34,7 @@
       </resource>
     </resources>
     <plugins>
-      <!-- https://maven.apache.org/plugins/maven-compiler-plugin/ -->
+      <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -92,7 +92,7 @@
           </execution>
         </executions>
       </plugin>
-      <!-- https://maven.apache.org/plugins/maven-checkstyle-plugin/ -->
+      <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
