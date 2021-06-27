@@ -62,6 +62,8 @@
 
 6. Install an EditorConfig plugin, if necessary: `https://editorconfig.org/#download`
 
+7. Install Project Lombok's plugin: `https://projectlombok.org/setup/overview`
+
 # Style Guide
 
 All plugins actively maintained by Civclassic ought to follow the following
