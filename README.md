@@ -2,9 +2,9 @@
 
 ## Setting up your development environment
 
-1. Install Java 11: `https://www.oracle.com/java/technologies/javase-jdk11-downloads.html` (Recommended, login necessary)
+1. Install Java 16: `https://www.oracle.com/java/technologies/javase-jdk16-downloads.html` (Recommended, login necessary)
 
-	* or OpenJDK 11: `https://adoptopenjdk.net/`
+	* or AdoptOpenJDK 16: `https://adoptopenjdk.net/`
 
 	* *other Java providers are available, but it's recommended to avoid them unless you know what you are doing.*
 
@@ -61,6 +61,8 @@
 	* Masochist? Vim: `http://www.vim.org/download.php` or Emacs: `http://www.gnu.org/software/emacs/#Obtaining`
 
 6. Install an EditorConfig plugin, if necessary: `https://editorconfig.org/#download`
+
+7. Install Project Lombok's plugin: `https://projectlombok.org/setup/overview`
 
 # Style Guide
 
